@@ -1,5 +1,6 @@
 Simpleseblodapi
 ===============
+Version: 0.1
 Last Update: 30 December 2014
 
 Simple Api for SEBLOD Developer to integrate seblod with 3rd Party Component/Plugin/Module
@@ -33,6 +34,8 @@ $status     =   $content->create(
 *$mainField* - Array, the field in core joomla
 *$customField* - Array, the Additional field made by seblod
 
+return value - ID of new content
+
 For Example:
 ```
 $status     =   $content->create(
@@ -58,3 +61,9 @@ $data=$content->load($id);
 ```
 *$id* is the ID of content
 
+return value - Content Type's object
+
+
+## To Do List
+- Make the api able to render custom/json format
+- fieldX and groupX support
