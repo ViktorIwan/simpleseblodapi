@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<extension type="plugin" group="system" version="3.0" method="upgrade">
+	<name>Doxadigital-SEBLOD API</name>
+	<version>1.0</version>
+	<creationDate>29 Desember 2014</creationDate>
+	<author>Doxadigital</author>
+	<copyright>Copyright . All rights reserved.	</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<authorEmail>support@doxadigital.com</authorEmail>
+	<authorUrl>www.doxadigital.com</authorUrl>
+	<description>DXIPAYMU_DESC</description>
+	<files>
+		<filename plugin="dxseblodapi">dxseblodapi.php</filename>
+	</files>
+	
+</extension>
