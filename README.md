@@ -13,28 +13,28 @@ Seblod is a great tools for joomla, the connection really like bread and butter.
 
 # Guide
 ## Init
-...
+```
 $content =   new simpleSeblodAPI(array(objectType));
-...
+```
 *objectType* is the main Object of Seblod, One of the following:
 - joomla_article // Related with main content (#__content)
 - joomla_category // Related with main category (#__category)
 - joomla_user // Related with user system (#__user)
 
 ## Insert Seblod Content
-...
+```
 $status     =   $content->create(
                  $contentTypeName,
                  $mainField,
                  $customField 
              );            
-...
+```
 *$contentTypeName* - String, the name of content type
 *$mainField* - Array, the field in core joomla
 *$customField* - Array, the Additional field made by seblod
 
 For Example:
-...
+```
 $status     =   $content->create(
                  'staff',
                  array(
@@ -50,11 +50,11 @@ $status     =   $content->create(
                  	'staff_pic'="Albert.jpg",
                  )
              );
-...
+```
 
 ## Load Seblod Content
-...
+```
 $data=$content->load($id);
-...
+```
 *$id* is the ID of content
 
