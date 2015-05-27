@@ -37,10 +37,10 @@ $status     =   $content->create(
                  $fieldXField 
              );            
 ```
-*$contentTypeName* - String, the name of content type
-*$mainField* - Array, the field in core joomla
-*$customField* - Array, the Additional field made by seblod
-*$fieldXField* - Array, the Additional fieldX made by seblod
+*$contentTypeName* - String, the name of content type<br/>
+*$mainField* - Array, the field in core joomla<br/>
+*$customField* - Array, the Additional field made by seblod<br/>
+*$fieldXField* - Array, the Additional fieldX made by seblod<br/>
 
 return value - ID of new content
 
@@ -75,10 +75,10 @@ $status     =   $content->create(
                  $fieldXField 
              );            
 ```
-*$id* - content id (taken from #__content)
-*$mainField* - Array, the field in core joomla
-*$customField* - Array, the Additional field made by seblod
-*$fieldXField* - Array, the Additional fieldX made by seblod
+*$id* - content id (taken from #__content)<br/>
+*$mainField* - Array, the field in core joomla<br/>
+*$customField* - Array, the Additional field made by seblod<br/>
+*$fieldXField* - Array, the Additional fieldX made by seblod<br/>
 
 return value - ID of updated content
 
