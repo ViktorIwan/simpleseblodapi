@@ -1,12 +1,10 @@
 Simpleseblodapi
 ===============
 Version: 1.1
-
 Last Update: 28 Mei 2015
-
 Change Log:
-^ Compatible with Seblod 3.6.x & Joomla 3.4.1
-+ Support FieldX
+\^ Compatible with Seblod 3.6.x & Joomla 3.4.1
+\+ Support FieldX
 
 This is a Tweak of JCCKContent that result Simple Api for SEBLOD Developer to integrate seblod with 3rd Party Component/Plugin/Module
 
