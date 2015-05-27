@@ -103,7 +103,7 @@ $data=$content->updateContent(
      $fieldXField);
 
 
-
+```
 ## Load Seblod Content
 ```
 $data=$content->load($id);
