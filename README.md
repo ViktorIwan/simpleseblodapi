@@ -74,7 +74,7 @@ $status     =   $content->create(
                  $customField,
                  $fieldXField 
              );            
-```
+
 *$id* - content id (taken from #__content)<br/>
 *$mainField* - Array, the field in core joomla<br/>
 *$customField* - Array, the Additional field made by seblod<br/>
@@ -83,6 +83,7 @@ $status     =   $content->create(
 return value - ID of updated content
 
 Sample Usage:
+```
 $id=11;
 $mainField=array(
     'title'=>'Victor Doxa',
