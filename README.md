@@ -1,8 +1,11 @@
 Simpleseblodapi
 ===============
 Version: 1.1
+
 Last Update: 28 Mei 2015
+
 Change Log:
+
 \^ Compatible with Seblod 3.6.x & Joomla 3.4.1
 \+ Support FieldX
 
