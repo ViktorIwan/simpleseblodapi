@@ -2,14 +2,14 @@
 <!-- $Id$ -->
 <extension type="plugin" group="system" version="3.0" method="upgrade">
 	<name>Doxadigital-SEBLOD API</name>
-	<version>1.1</version>
-	<creationDate>28 Mei 2015</creationDate>
+	<version>1.5</version>
+	<creationDate>22 August 2015</creationDate>
 	<author>Doxadigital</author>
 	<copyright>Copyright . All rights reserved.	</copyright>
 	<license>GNU General Public License version 2 or later.</license>
 	<authorEmail>support@doxadigital.com</authorEmail>
 	<authorUrl>www.doxadigital.com</authorUrl>
-	<description>Insert, Update, and Load Raw Seblod Data in Simple Way</description>
+	<description>Simple API to Manage Seblod Content</description>
 	<files>
 		<filename plugin="dxseblodapi">dxseblodapi.php</filename>
 	</files>
