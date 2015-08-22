@@ -2,6 +2,7 @@ Simpleseblodapi
 ===============
 Version: 1.5 (Update on August 2015)
 
+Discussion: http://www.seblod.com/community/forums/general-discussions/simple-seblod-api-by-vic
 
 #Description
 This is a Tweak of JCCKContent that result Simple Api for SEBLOD Developer to integrate seblod with 3rd Party Component/Plugin/Module. This is based on our project on managing content type with hundreds of item in a Web Real Estate Project. 
@@ -154,8 +155,10 @@ Rules for usergroup:
 - Render data in json and custom format
 - GroupX Support <- the hardest challange
 
+```
 ## Change Log
 Version: 1.5
+
 Last Update 22 August 2015
 ^ Simplified Format - combine fieldX parameter into custom field
 ^ FieldX Storage Targeting - It detect fieldX storage beside introtext as well
@@ -163,4 +166,6 @@ Last Update 22 August 2015
 
 Version: 1.1
 Last Update: 28 Mei 2015
-^ Compatible with Seblod 3.6.x & Joomla 3.4.1<br/>\+ Support FieldX
+^ Compatible with Seblod 3.6.x & Joomla 3.4.1
++ Support FieldX
+```
