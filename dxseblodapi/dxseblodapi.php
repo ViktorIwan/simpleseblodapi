@@ -320,9 +320,9 @@ class simpleSeblodAPI extends JCckContent{
 		c.storage_table,
 		c.storage_field
 		FROM
-		aura_cck_core_types AS a
-		Left Join aura_cck_core_type_field As b ON b.typeid = a.id
-		Left Join aura_cck_core_fields As c ON c.id = b.fieldid
+		#__cck_core_types AS a
+		Left Join #__cck_core_type_field As b ON b.typeid = a.id
+		Left Join #__cck_core_fields As c ON c.id = b.fieldid
 		WHERE
 		a.`name` = \''.$base->cck.'\' AND
 		c.type = \'field_x\'
